@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>ติดต่อได้ที่!</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    input[type="submit"] {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1e8449;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">หน้าแรก</a>
+    <a href="about.html">เกี่ยวกับ</a>
+    <a href="contact.html">ติดต่อ</a>
+  </div>
+
+  <div class="container">
+    <h1>ติดต่อได้ที่</h1>
+    <form action="#" method="post">
+      <label>ชื่อของคุณ:</label>
+      <input type="text" name="name" required>
+
+      <label>อีเมล:</label>
+      <input type="email" name="email" required>
+
+      <label>ข้อความ:</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <input type="submit" value="ส่งข้อความ">
+    </form>
+
+    <footer style="text-align:center; margin-top:50px; color:#aaa;">
+        <p>&copy; Dev By TenZ</p>
+    </footer>
+
+  </div>
+</body>
+</html>
